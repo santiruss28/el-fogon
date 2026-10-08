@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sanguchería El Fogón — Mendoza</title>
+<meta name="description" content="Sánguches de milanesa, lomo y bondiola al pan casero. Av. San Martín 1450, Mendoza Capital.">
+<style>
+  :root{
+    --bg:#FAF7F3; --ink:#1F1A17; --muted:#6B6058; --rule:#E3DAD1;
+    --accent:#8A3324; --card:#FFFFFF;
+  }
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#17130F; --ink:#F3EDE6; --muted:#A8998C; --rule:#342B24;
+      --accent:#E0825F; --card:#1F1A15;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#17130F; --ink:#F3EDE6; --muted:#A8998C; --rule:#342B24;
+    --accent:#E0825F; --card:#1F1A15;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:0 16px}
+  header{padding:64px 0 40px; text-align:center; border-bottom:1px solid var(--rule)}
+  h1{font-size:40px; line-height:1.1; margin:0 0 10px; letter-spacing:-.02em}
+  .lede{color:var(--muted); margin:0 auto; max-width:46ch}
+  .meta{color:var(--muted); font-size:14px; margin-top:18px}
+  h2{font-size:13px; letter-spacing:.09em; text-transform:uppercase; color:var(--accent); margin:44px 0 14px}
+  section{border-bottom:1px solid var(--rule); padding-bottom:28px}
+  .item{display:flex; justify-content:space-between; gap:20px; align-items:baseline; margin-top:18px}
+  .item b{font-size:17px}
+  .price{color:var(--muted); font-size:14px; white-space:nowrap}
+  .item p{margin:4px 0 0; color:var(--muted); font-size:14.5px}
+  nav.cards{display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); margin:18px 0 0}
+  a.card{
+    display:block; background:var(--card); border:1px solid var(--rule);
+    border-radius:12px; padding:18px 20px; text-decoration:none; color:inherit;
+  }
+  a.card b{display:block; color:var(--accent); margin-bottom:4px}
+  a.card span{color:var(--muted); font-size:14px}
+  .codigo{
+    margin:40px 0; padding:16px 20px; border:1px dashed var(--rule);
+    border-radius:10px; background:var(--card); font-size:14.5px; color:var(--muted);
+  }
+  .codigo b{color:var(--ink)}
+  footer{padding:36px 0 60px; color:var(--muted); font-size:14px; text-align:center}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Sanguchería El Fogón</h1>
+    <p class="lede">Sánguches de milanesa, lomo y bondiola al pan casero. Un local chico en Mendoza capital, atendido por sus dueños desde 2019.</p>
+    <p class="meta">Av. San Martín 1450, Mendoza Capital · Martes a domingo de 19:00 a 00:30</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>Los sánguches</h2>
+
+    <div class="item">
+      <div>
+        <b>Milanesa de ternera</b>
+        <p>Nalga fina rebozada a mano con pan rallado y perejil, frita al momento. El más pedido de la casa.</p>
+      </div>
+      <span class="price">$6.500 / $8.200</span>
+    </div>
+
+    <div class="item">
+      <div>
+        <b>Lomo</b>
+        <p>Lomo de ternera a la plancha, cortado grueso. Se sirve a punto salvo que pidas otra cosa.</p>
+      </div>
+      <span class="price">$8.900 / $10.500</span>
+    </div>
+
+    <div class="item">
+      <div>
+        <b>Bondiola braseada</b>
+        <p>Braseada cuatro horas hasta que se deshace, con cebolla caramelizada y salsa criolla.</p>
+      </div>
+      <span class="price">$8.400 / $9.900</span>
+    </div>
+
+    <div class="item">
+      <div>
+        <b>Vegetales grillados</b>
+        <p>Berenjena, zucchini y morrón con queso derretido y rúcula. El único vegetariano de la carta.</p>
+      </div>
+      <span class="price">$6.800</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Más sobre nosotros</h2>
+    <nav class="cards">
+      <a class="card" href="historia.html">
+        <b>Nuestra historia</b>
+        <span>Cómo empezó El Fogón y quiénes lo llevan adelante.</span>
+      </a>
+      <a class="card" href="sucursales.html">
+        <b>Dónde estamos</b>
+        <span>Nuestros locales y los horarios de cada uno.</span>
+      </a>
+    </nav>
+  </section>
+
+  <p class="codigo">
+    <b>Código de página: FOGON-NIVEL-1-PIMIENTA.</b>
+    La salsa secreta de la casa se llama <b>Fogón Bravo</b> y lleva ají molido ahumado.
+    Solo se consigue pidiéndola por su nombre.
+  </p>
+
+</main>
+
+<footer class="wrap">
+  Sanguchería El Fogón · Av. San Martín 1450, Mendoza Capital · hola@elfogon.test
+</footer>
+
+</body>
+</html>

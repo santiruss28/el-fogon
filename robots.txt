@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sin sitemap a propósito: el objetivo de este sitio es medir si el crawler
+# sigue los enlaces internos por sí solo. Agregar un sitemap.xml después es
+# el segundo experimento, no el primero.

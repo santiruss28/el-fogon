@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dónde estamos — Sanguchería El Fogón</title>
+<meta name="description" content="Locales de Sanguchería El Fogón en Mendoza Capital y Chacras de Coria.">
+<style>
+  :root{
+    --bg:#FAF7F3; --ink:#1F1A17; --muted:#6B6058; --rule:#E3DAD1;
+    --accent:#8A3324; --card:#FFFFFF;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#17130F; --ink:#F3EDE6; --muted:#A8998C; --rule:#342B24;
+      --accent:#E0825F; --card:#1F1A15;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#17130F; --ink:#F3EDE6; --muted:#A8998C; --rule:#342B24;
+    --accent:#E0825F; --card:#1F1A15;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:680px; margin:0 auto; padding:0 16px}
+  .back{display:inline-block; margin:32px 0 0; color:var(--accent); text-decoration:none; font-size:14px}
+  h1{font-size:34px; line-height:1.15; margin:18px 0 8px; letter-spacing:-.02em}
+  .kicker{color:var(--muted); font-size:13px; letter-spacing:.09em; text-transform:uppercase; margin:0}
+  .local{
+    background:var(--card); border:1px solid var(--rule); border-radius:12px;
+    padding:20px 22px; margin:20px 0;
+  }
+  .local b{font-size:18px; display:block; margin-bottom:6px}
+  .local p{margin:4px 0; color:var(--muted); font-size:14.5px}
+  h2{font-size:13px; letter-spacing:.09em; text-transform:uppercase; color:var(--accent); margin:40px 0 10px}
+  .codigo{
+    margin:40px 0; padding:16px 20px; border:1px dashed var(--rule);
+    border-radius:10px; background:var(--card); font-size:14.5px; color:var(--muted);
+  }
+  .codigo b{color:var(--ink)}
+  footer{padding:36px 0 60px; color:var(--muted); font-size:14px; border-top:1px solid var(--rule); margin-top:40px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+
+<main class="wrap">
+  <a class="back" href="index.html">← El Fogón</a>
+
+  <p class="kicker">Dónde estamos</p>
+  <h1>Dos locales, muy distintos entre sí</h1>
+
+  <div class="local">
+    <b>El Fogón Centro</b>
+    <p>Av. San Martín 1450, Mendoza Capital</p>
+    <p>Martes a domingo de 19:00 a 00:30. Lunes cerrado.</p>
+    <p>Es el local original. Tiene catorce mesas adentro y cuatro en la vereda.</p>
+  </div>
+
+  <div class="local">
+    <b>El Fogón Chacras</b>
+    <p>Calle Viamonte 330, Chacras de Coria, Luján de Cuyo</p>
+    <p>Viernes, sábados y domingos de 20:00 a 01:00. El resto de la semana cerrado.</p>
+    <p>Abrió en noviembre de 2024. Es más chico y solo trabaja con mesas al aire libre, bajo los árboles. En invierno baja mucho el movimiento, así que algunos fines de semana de julio no abre.</p>
+  </div>
+
+  <h2>Importante</h2>
+
+  <p>Los dos locales comparten la carta y los precios, pero <b>el pan se amasa solamente en el local del Centro</b> y se lleva a Chacras cada tarde. Si por alguna razón no llega el reparto, Chacras no abre ese día.</p>
+
+  <p><a href="cocina.html">Cómo trabajamos la cocina y el pan →</a></p>
+
+  <p class="codigo">
+    <b>Código de página: FOGON-NIVEL-2B-ROMERO.</b>
+    En el local de Chacras hay una sola mesa bajo la higuera que se puede reservar:
+    la llamamos <b>la mesa catorce</b> y se pide por teléfono con una semana de anticipación.
+  </p>
+
+</main>
+
+<footer class="wrap">
+  Sanguchería El Fogón · <a href="index.html">Volver al inicio</a> · <a href="historia.html">Nuestra historia</a>
+</footer>
+
+</body>
+</html>
